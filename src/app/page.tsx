@@ -1,14 +1,11 @@
-import Image from 'next/image';
-
 export default function Home() {
   return (
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
-        <Image
+        <img
           alt="Next.js logo"
           className="dark:invert"
           height={38}
-          priority
           src="https://nextjs.org/icons/next.svg"
           width={180}
         />
@@ -30,7 +27,7 @@ export default function Home() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image
+            <img
               alt="Vercel logomark"
               className="dark:invert"
               height={20}
@@ -56,7 +53,7 @@ export default function Home() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image alt="File icon" aria-hidden height={16} src="https://nextjs.org/icons/file.svg" width={16} />
+          <img alt="File icon" aria-hidden height={16} src="https://nextjs.org/icons/file.svg" width={16} />
           Learn
         </a>
         <a
@@ -65,7 +62,7 @@ export default function Home() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image alt="Window icon" aria-hidden height={16} src="https://nextjs.org/icons/window.svg" width={16} />
+          <img alt="Window icon" aria-hidden height={16} src="https://nextjs.org/icons/window.svg" width={16} />
           Examples
         </a>
         <a
@@ -74,7 +71,7 @@ export default function Home() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Image alt="Globe icon" aria-hidden height={16} src="https://nextjs.org/icons/globe.svg" width={16} />
+          <img alt="Globe icon" aria-hidden height={16} src="https://nextjs.org/icons/globe.svg" width={16} />
           Go to nextjs.org →
         </a>
       </footer>
