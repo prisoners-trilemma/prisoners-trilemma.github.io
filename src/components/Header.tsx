@@ -7,13 +7,13 @@ function Header() {
     <header className="mb-9 shadow-lg dark:shadow-gray-500">
       <div className="container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row">
         <nav className={`${newTegomin.className} flex flex-wrap items-center text-lg md:ml-auto lg:w-2/6`}>
-          <a className="mr-5 hover:text-gray-900" href="/">
+          <a className="mr-5 hover:text-gray-600" href="/">
             First Link
           </a>
-          <a className="mr-5 hover:text-gray-900" href="/">
+          <a className="mr-5 hover:text-gray-600" href="/">
             Second Link
           </a>
-          <a className="mr-5 hover:text-gray-900" href="/">
+          <a className="mr-5 hover:text-gray-600" href="/">
             Third Link
           </a>
         </nav>
