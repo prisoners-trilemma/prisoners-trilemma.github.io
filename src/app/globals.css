@@ -9,6 +9,22 @@ body {
   text-align: center;
 }
 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+
+  img#topLogo,
+  img#footLogo {
+    filter: invert(100%);
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -16,10 +32,10 @@ body {
 }
 
 img#topLogo {
-  width: 8vh;
-  height: 8vh;
+  width: 8vw;
+  height: 8vw;
 }
 img#footLogo {
-  width: 8vh;
-  height: 8vh;
+  width: 4vw;
+  height: 4vw;
 }

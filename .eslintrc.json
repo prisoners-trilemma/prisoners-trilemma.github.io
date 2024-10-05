@@ -5,14 +5,18 @@
     "next/core-web-vitals",
     "next/typescript",
     "plugin:tailwindcss/recommended",
-    "prettier"
+    "prettier",
+    "airbnb"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["unused-imports"],
+  "ignorePatterns": ["**/*.js"],
+  "plugins": ["unused-imports", "react"],
   "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "@next/next/no-img-element": "off",
     "unused-imports/no-unused-imports": "error",
     "react/jsx-sort-props": "error",
@@ -34,6 +38,17 @@
           "order": "asc"
         }
       }
-    ]
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx", "ts", "tsx"] }]
   }
 }
