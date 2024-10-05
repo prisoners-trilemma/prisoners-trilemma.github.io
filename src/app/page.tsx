@@ -1,10 +1,10 @@
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+
 export default function Home() {
   return (
-    <div>
-      <header>
-        <h1>Prisoner's Trilemma</h1>
-        {/* ハンバーガーメニュー */}
-      </header>
+    <>
+      <Header></Header>
       <main>
         <section>
           <h1>What's new</h1>
@@ -13,9 +13,7 @@ export default function Home() {
           <h1>Products</h1>
         </section>
       </main>
-      <footer>
-        <h1>Prisoner's Trilemma</h1>
-      </footer>
-    </div>
+      <Footer></Footer>
+    </>
   );
 }
