@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 
 export default function Home() {
   return (
-    <div id="wrapper">
+    <>
       <Header></Header>
       <main>
         <section>
@@ -14,6 +14,6 @@ export default function Home() {
         </section>
       </main>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
