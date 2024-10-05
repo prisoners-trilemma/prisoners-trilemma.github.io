@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div id="wrapper">
       <header>
         <h1>Prisoner's Trilemma</h1>
         {/* ハンバーガーメニュー */}
