@@ -3,14 +3,14 @@ export default function Home() {
     <div>
       <header>
         <h1>Prisoner's Trilemma</h1>
-        <!--ハンバーガーメニュー-->
+        {/* ハンバーガーメニュー */}
       </header>
       <main>
         <section>
-        <h1>What's new</h1>
+          <h1>What's new</h1>
         </section>
         <section>
-        <h1>Products</h1>
+          <h1>Products</h1>
         </section>
       </main>
       <footer>
