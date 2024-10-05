@@ -16,6 +16,7 @@
     "@next/next/no-img-element": "off",
     "unused-imports/no-unused-imports": "error",
     "react/jsx-sort-props": "error",
+    "react/no-unescaped-entities": "off",
     "import/order": [
       "error",
       {
