@@ -39,3 +39,7 @@ img#footLogo {
   width: 4vw;
   height: 4vw;
 }
+
+section {
+  margin: auto;
+}
