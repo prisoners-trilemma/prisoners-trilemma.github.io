@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 
 import Footer from '@/components/Footer';
@@ -15,10 +16,14 @@ export default function Home() {
           記事はまだありません。
         </Section>
         <Section id="Creations" title="Creations">
-          随時更新予定。
+          2022.10 「<a href="/old/phantom">Phantom Girl</a>
+          」公開
+          <br />
+          2021.10 「<a href="/old/oboro">トナリノオボロ</a>
+          」公開
         </Section>
         <Section id="Tools" title="Tools">
-          随時更新予定2。
+          随時更新予定。
         </Section>
       </main>
       <Footer />
