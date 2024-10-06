@@ -18,7 +18,7 @@ export default function Home() {
           随時更新予定。
         </Section>
         <Section id="Tools" title="Tools">
-          随時更新予定。
+          随時更新予定2。
         </Section>
       </main>
       <Footer />
