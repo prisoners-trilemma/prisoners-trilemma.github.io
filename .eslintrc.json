@@ -21,6 +21,8 @@
     "unused-imports/no-unused-imports": "error",
     "react/jsx-sort-props": "error",
     "react/no-unescaped-entities": "off",
+    "react/require-default-props": "off",
+    "object-curly-newline": "off",
     "import/order": [
       "error",
       {

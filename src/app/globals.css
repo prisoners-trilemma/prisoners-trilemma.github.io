@@ -32,14 +32,9 @@ body {
 }
 
 img#topLogo {
-  width: 8vw;
-  height: 8vw;
+  size: 3rem;
 }
 img#footLogo {
   width: 4vw;
   height: 4vw;
-}
-
-section {
-  margin: auto;
 }

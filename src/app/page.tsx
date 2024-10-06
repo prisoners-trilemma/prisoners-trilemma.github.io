@@ -2,21 +2,24 @@ import React from 'react';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-
-import { jacquarda, newTegomin } from '@/utils/font';
+import Section from '@/components/Section';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className={`${newTegomin.className}`}>
-        <section>クリエイターだったり日曜学者だったりゲーマーだったりする人たちです。</section>
-        <section>
-          <h1 className={`${jacquarda.className} text-4xl font-bold`}>Articles</h1>
-        </section>
-        <section>
-          <h1 className={`${jacquarda.className} text-4xl font-bold`}>Products</h1>
-        </section>
+
+      <main>
+        <Section>クリエイターだったり日曜学者だったりゲーマーだったりする人たちです。</Section>
+        <Section id="Articles" title="Articles">
+          記事はまだありません。
+        </Section>
+        <Section id="Creations" title="Creations">
+          随時更新予定。
+        </Section>
+        <Section id="Tools" title="Tools">
+          随時更新予定。
+        </Section>
       </main>
       <Footer />
     </>
